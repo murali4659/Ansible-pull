@@ -1,0 +1,5 @@
+- name: Demo on ansible pull 
+  hosts: localhost
+  tasks:
+    - name: Run a task 
+      debug: msg="Hey, I am been pulled"
